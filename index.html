@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jquery.mark-强大的jQuery关键字文本高亮插件|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"> -->
+	<style type="text/css">
+		body {
+		  margin: 15px;
+		}
+
+		div.search span,
+		div.search input[name="keyword"] {
+		  display: block;
+		}
+
+		div.search input[name="keyword"] {
+		  margin-top: 4px;
+		}
+
+		div.panel {
+		  padding: 1em 12em;
+		  margin-bottom: 15px;
+		}
+		div.panel-body p{
+			text-indent: 2em;
+		}
+
+		span.match {
+		  background: yellow;
+		  color: black;
+		}
+	</style>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>关键字文本高亮</span></h1>
+		</header>
+		<div class="panel panel-default">
+			<div class="panel-heading">关键字文本高亮</div>
+			  <div class="panel-body">
+			    <div class="search row">
+			      <div class="col-xs-6">
+			        <span>键入你想要搜索的词语:</span>
+			        <input type="text" name="keyword" class="form-control input-sm" placeholder="风华...">
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+
+			<div class="panel panel-default">
+			  <div class="panel-body context">
+			  	<h2 class="center">风华不过指间沙</h3>
+			    <p>
+			      有人说，风华是一指流砂，而苍老是一段年华。风华褪去，遗留下的只是万点邪魅的腥红，妖冶，美丽。我从未相信，历经过撕心裂肺的痛，便会牵得天荒地老的伤感。风华褪尽，一指流砂，落拓的是繁华哀伤的悲，遗落千年，亘古不息。
+			    </p>
+				<p>我一直都是情感的奴，跳不出痴心的迷途。生死之间，始终以醇酒香车惶惶度日。这一世，拱手山河，不为来生，只为觅到自己许心的那段情缘。我在流年里，一个人静静的行走，一个人写自己喜欢的文。盈亏往复，人生如是。我一直在等，等一个诗影弄情的机会，一展宿命中的绝代风华。可惜，岁月蹉跎，任何执念都会随年轮苍老。当惊艳天涯的芳华不复，遗下的便只是嗜血妖魅的凄凉。当岁月允许的是一袭嫁衣红裳，是否就一定能披露深埋多年芳香?一指流砂，风华褪尽，余下的便只是血染红妆的落寂与孤凉。</p>
+				<p>时间蹇促，年轮不休。从生到死，只是一段距离。黄泉碧落，道不清思念的苦楚;红尘天涯，诉不尽离落的残殇。奈何桥畔，总会有人倚栏回首，因为此生未够。时光来得总是很仓促，一切都是那么的来不及。我们总是在辗转流离，缓步相遇，转瞬别离，然后相忘于江湖。以至于我们都无法知道，到底是谁在谁的故事里反复沉沦。取一纸墨染，书下这经年的记忆。我把岁月紊乱，打翻前世的琉璃灯盏，想要将过往埋葬。殊不知，历史又怎能让人轻易涂抹?往昔的天天年年，辉煌绝艳，撒落万里荣光。江山易主，王朝更迭。在时间的铁蹄催逼之下，我们都无法守住那年岁的城池。因为，红颜倾颓，本就是一场命定。命定在此时，命定在此地，我们与苍老不期而遇。褪尽往日的风华，我们，只是最普通的凡尘俗子，没有过去，没有以后。有的只是，一点点恬静的淡定与心安。此生，不求光芒万丈，更不求富贵荣华，只要有一份安稳的生活，细如流砂，便已足够。风华褪尽，不为年轮所累，或许正是宿命的回报与施恩。</p>
+				<p>三千繁华，错付流水， 惹得一世离愁。倾心无涯，透彻得如散落尘世的烟花。我是一个假剧作真的戏子，戏里风华无限，戏外沧桑落寞。故事，总在昨天的瞬间。往事一片一片，仿佛已不是梦幻的思念。我以天为鉴，用名字镌刻诺言。我用风云做砚，写下了无关岁月的诗篇。痴人一梦，横过万里黄沙，从此了无牵挂。逝去多年，我早已满头华发，而谁又在何处到老?转过三千佛塔，我却始终参不化前尘的风沙。抚一曲流水清风，我的指尖便落下过往的残红。思念太浓，却远离了旧时的悲喜枯荣。我将墓碑留白，却始终不见昔日的风华再开。岁月无端，有些过往，只能挥墨来铺陈。一个人的一生太短，却总有太长的那么一瞬。星夜沉天涯,你在彼岸等待繁花的开落。一曲嘲哳，唱得好与坏都无他，只要你在，我便无惧青丝白发。我总在一段海棠下沏一壶茶，等待岁月的无端变化。我一觉醒转，流年就在我的左岸，作一副参商渐暖的画，安慰错落的风华。风吹沙，埋藏一段段佳话。缘分总是阴错阳差，转身便会相忘天涯。多年的风华，经不住万里的尘沙，被岁月削去了鬓发。满纸画卷墨横干，清微诗书弄苍凉，我早已没有了往日的绝代风华，又岂敢奢望时光待我如初。当年眉目无双，如今旧梦一场。再回望，亦只得半生思量。</p>
+				<p>把酒愿图疏狂，若能白头，何妨一醉千江。去而未往，箫声不断，想那年嫁衣红裳。一伤便是刻骨铭心，时间太远，已不愿去记起，今夕何夕。彼时相许，念自如昔，低眉信手，是谁喃呢。恍惚梦里，是谁的笑意，拂袖而去。我早已身心异域，换得一生相许，便可足矣。可岁月踏乱了痕迹，侵蚀了我一世绝伦的美丽。青丝成雪，迟暮当年。打翻前世的轮回，我焚香祭奠，让青史成灰。红线千匝，我却只愿那一把。看尽盛世的烟花，谁有为我倾尽天下?眉间一点朱砂，我颠覆了三千繁华。功也好，罪也罢，此生便已无瑕。一夜浮华，风流不假，画船轻荡颠倒容华。将岁月隐藏，舞一曲水袖霓裳，纵是流魂也长出了枝桠。最后总是温柔的决绝，洗去了，我今生所有的罪孽。逃不过俗世的劫，我从花开走到花谢。琴声起，我挽过薄纱而去。只留下，越传越奇的佳话与传奇。丹青写意，风华褪去。翻手是千年绵延的细雨，让人无法去忘记。当年，我身着琅琊金羽，横吹长笛。前世歉疚，我尽将曲意付予风沙，留得一指的芳华。</p>
+				<p>青空杳然，白鬓相拥。我希望有一个人，不在乎岁月的更替与消融。洗尽双瞳，把滚滚红尘倒进杯中，我愿饮思过之酒一盅。改过这年年岁岁的错，求一隅安歇之所。涉过千层雪，唤醒了旧梦。但我早已不是当年的狂妄少年，韶华逝去，我的风华亦早已枯萎难荣。红尘变成坟冢，兴衰一瞬相溶。恍惚间，沧桑便逝，转过身，一场盛世年华轻如昙花。看尽人间悲喜交加，余生便无心红妆。很多故事，泅于相思的河畔。你信，便好，不信，便权当路过。在故事的扉页里，我们都是时光的枝桠，一点一点零落，化作微尘。无论你有多么耀眼的芳华，亦不过是匆匆过客。走进岁月的断章，耗尽风华，一指流砂而已。</p>
+				<p>风华是一指流砂，苍老是一段年华。天地为证，就算风华殆尽，我亦要优雅地活。我是尘土之外的孤星，天荒地老，一刻不曾更迭。风华褪尽，一指流砂，余下的是三千水墨，一世繁华。风华褪尽，一指流砂，遗下的是闲情千载，宁静淡泊。</p>
+			  </div>
+			</div>
+	</div>
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="dist/jquery.mark.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		  var mark = function() {
+				// 关键词输入框
+		    var keyword = $("input[name='keyword']").val();
+				// mark配置
+		    var options = {
+		      "className": "match", //添加到element上的class名称
+					'separateWordSearch': true //是搜索单独的词语（空格分隔）还是整个词语
+		    };
+		    $(".context").removeMark();
+		    $(".context").mark(keyword, options);
+		  };
+			// 数据改变时调用
+		  $("input[name='keyword']").on("keyup", mark);
+		});
+	</script>
+</body>
+</html>
